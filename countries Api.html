@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTRIES API</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://kit.fontawesome.com/391e28b498.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/countries Api.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Where in the world?</h1>
+        <button class="toggle"><i class="uil uil-moon change-theme icon3 moon" id="theme-button"></i>Dark Mode</button>
+    </div>
+    <div class="container">
+        <div class="form-control">
+            <!-- <i class="uil uil-search icon"></i> -->
+            <input type="text" placeholder="Search for country" class="search">
+            <i class="uil uil-search icon"></i>
+        </div>
+        <div class="dropDowncon">
+            <div class="dropdown">
+                <p>Filter By Region</p>
+                <button><i class="uil uil-arrow-down icon2 "></i></button>
+            </div>
+            <div class="drop showDropDown">
+                <p class="region">All</p>
+                <p class="region">Africa</p>
+                <p class="region">America</p>
+                <p class="region">Asia</p>
+                <p class="region">Europe</p>
+                <p class="region">Oceania</p>
+            </div>
+        </div>
+    </div>
+    <div class="countries">
+    </div>
+    <div class="countrymodal show">
+       
+    </div>
+<script src="./countries Api.js"></script>
+</body>
+
+</html>
